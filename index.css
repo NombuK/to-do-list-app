@@ -1,0 +1,78 @@
+body {
+  text-align: center;
+  background: #ffc8dd;
+  margin: 0;
+  max-height: 100vh;
+}
+
+h1 {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: italic;
+  margin-bottom: 5px;
+  color: #ff0a54;
+  text-shadow: 5px 5px 5px #ff477e;
+}
+
+p {
+  font-style: italic;
+  color: #ff0a54;
+}
+
+img {
+  border: 4px solid #ff0a54;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+input {
+  text-align: center;
+  border: 2px solid #ff0a54;
+  border-radius: 3px;
+  width: 80%;
+  padding: 10px;
+  box-sizing: border-box;
+  background: #ff97b7;
+}
+
+button {
+  border-radius: 4px;
+  width: 80%;
+  padding: 10px;
+  cursor: pointer;
+  margin: 20px;
+  color: #ffffff;
+  font-weight: 600;
+  transition: all 200ms ease-in-out;
+}
+
+#save-btn {
+  border: 2px solid #ff0a54;
+  background: #ff0a54;
+}
+
+#delete-btn {
+  border: 1px solid #dd0426;
+  background: #f02d3a;
+}
+
+#save-btn:hover {
+  background: #ff5c8a;
+}
+
+#delete-btn:hover {
+  background: #dd0426;
+}
+
+ul {
+  margin-top: 20px;
+  list-style: none;
+  padding-left: 0;
+}
+
+li {
+  margin-top: 5px;
+  font-weight: 300;
+  font-size: large;
+}
